@@ -17,11 +17,15 @@ p{
 .top-banner{
   display: flex;
   margin-bottom: 5em;
-  background-image: url("images/tanin.png");
+  background-image: url(../images/top-banner.png);
+  background-repeat: no-repeat;
 }
 .profile-container{
   display: flex;
   margin-bottom: 5em;
+  background-image: url(../images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .container{
   width: 50%;
@@ -32,7 +36,11 @@ p{
   width: 95%;
   margin-top: 5%;
 }
-
+.experience-section{
+  background-image: url(../images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
 .experience-container{
   display: flex;
   margin: 0 1% 5% 5%;
@@ -65,4 +73,7 @@ footer p{
   padding: .25em 1em;
   border-radius: 10px;
 
+}
+.add-bg{
+  background-image: url("");
 }
